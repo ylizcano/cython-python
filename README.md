@@ -34,8 +34,8 @@ estas pueden ser declaradas de tres formas diferentes:def,cpdef y cdef.
 -El archivo setup.py es necesario para generar la extensión de cython al compilarlo,
 <br>
 luego de esto se observa que el tiempo de respuesta de cython es mas optimo que el de python.
-- Es un lenguaje de programación que combina Python con el sistema
-  de tipos estáticos de C y C++.
+- Para un mejor rendimiento se le pueden indicar las variables a Cython para que pueda generar codigo mas optimo,
+estas pueden ser declaradas de tres formas diferentes:def,cpdef y cdef.
 - Es un compilador que traduce el código fuente de Cython a un código fuente C o C++ eficiente.
   Este código fuente se puede compilar en un módulo de extensión de Python o en un ejecutable      
   independiente.
