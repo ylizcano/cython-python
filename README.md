@@ -1,4 +1,4 @@
-# Introducción
+## Introducción
 **Cython**
 - Es un lenguaje de programación que combina Python con el sistema
   de tipos estáticos de C y C++.
