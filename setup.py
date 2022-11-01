@@ -1,12 +1,12 @@
 """
- * Fecha: 28-Octubre-2022
- * Autor: Yeison LIzcano
+ * Fecha: 31-Octubre-2022
+ * Autor: Yeison Lizcano
  * Materia: Parallel and Distributed Computing
  * Tema: cython
 """
 from distutils.core import setup, Extension
 from Cython.Build import cythonize
 
-exts = (cythonize("orbit.pyx"))
+exts = (cythonize("orbitCython.pyx"))
 
 setup(ext_modules = exts)
