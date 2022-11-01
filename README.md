@@ -28,6 +28,7 @@ Tiempo total cython  0.008874177932739258
 ```
 ## Análisis Resultados
 -Para un mejor rendimiento se le pueden indicar las variables a Cython para que pueda generar codigo mas optimo.
+<br>
 -El tiempo de respuesta de cython es mas optimo que el fichero de python.
 
 
