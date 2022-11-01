@@ -17,3 +17,5 @@ y para la compilación se utiliza el comando python3 setup.py build_ext --inplac
 pip install cython
 python3 setup.py build_ext --inplace
 
+##Resultados
+
