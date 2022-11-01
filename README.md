@@ -10,7 +10,8 @@
 ## Instalación
 
 Se utiliza el administrador de paquetes [pip](https://pip.pypa.io/en/stable/) para instalar cython,
-y para la compilación se utiliza el comando:
+y para la compilación se utiliza el comando python3 setup.py build_ext --inplace.
+
 
 ```bash
 pip install cython
