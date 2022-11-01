@@ -6,5 +6,5 @@
 - Es un compilador que traduce el código fuente de Cython a un código fuente C o C++ eficiente.
   Este código fuente se puede compilar en un módulo de extensión de Python o en un ejecutable      
   independiente.
-  
+
 **Instalación **
