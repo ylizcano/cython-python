@@ -1,22 +1,22 @@
 """
- * Fecha: 28-Octubre-2022
+ * Fecha: 31-Octubre-2022
  * Autor: Yeison Lizcano
  * Materia: Parallel and Distributed Computing
- * Tema: Funciones python para el calculo del area bajo la curva trapasoidal
+ * Tema: Medida de rendimiento cython/python: Problema Planeta en Orbita
 """
 
 import time 
-import orbita.pyx
+import orbitPython
+import orbitCython
 init_time = time.time()
-print("calculo con python: ",orbita.py(400))
+orbitPython.step_time(orbitPython.Planet(),20,10000)
 fin_time=time.time()
 total_time_python=fin_time - init_time
 print("Tiempo total de python: ", total_time_python)
 
 init_time=time.time()
-print("Calculo con cython: ",orbita.pyx(400))
+orbitCython.step_time(orbitCython.Planet(),20,10000)
 fin_time=time.time()
 total_time_cython=fin_time - init_time
 print("Tiempo total cython ", total_time_cython)
-print(f"cython es {total_time_python/total_time_cython}")
  
