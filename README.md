@@ -9,7 +9,7 @@
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install cython.
+Se utiliza el administrador de paquetes [pip](https://pip.pypa.io/en/stable/) para instalar cython.
 
 ```bash
-pip install foobar
+pip install cython
