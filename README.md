@@ -6,11 +6,10 @@
   Este código fuente se puede compilar en un módulo de extensión de Python o en un ejecutable      
   independiente.
 
-Procesamiento paralelo
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install cython.
 
 ```bash
 pip install foobar
