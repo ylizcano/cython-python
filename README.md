@@ -22,8 +22,8 @@ python3 setup.py build_ext --inplace
 ```
 yeison@master:~/Documentos/cythonTAller$ python3 setup.py build_ext --inplace
 yeison@master:~/Documentos/cythonTAller$ python3 perfomance.py
-Tiempo total de python:  0.013580083847045898
-Tiempo total cython  0.008874177932739258
+Tiempo total de python:  1.83044
+Tiempo total cython  0.07428
 
 ```
 ## Análisis Resultados
